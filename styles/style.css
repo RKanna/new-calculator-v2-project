@@ -24,7 +24,8 @@ body {
 }
 .outer-line-calc {
   width: 25rem;
-  height: 35rem;
+  /* height: 35rem; */
+  height: auto;
   border: 2px solid #dfdede;
 }
 .display-container-row {
@@ -35,10 +36,11 @@ body {
 }
 .display {
   width: 100%;
-  height: 6rem;
+  height: 8rem;
   border: 2px solid #dfdede;
 }
 .grid-btn-container {
+  padding-top: 1rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr) 2fr;
   grid-gap: 1.5rem;
@@ -70,4 +72,12 @@ button {
 }
 .equal {
   background-color: #5292ff;
+}
+.result-container {
+  margin-top: -1.2rem;
+}
+.history {
+  color: black;
+  text-align: end;
+  font-size: 2rem;
 }
