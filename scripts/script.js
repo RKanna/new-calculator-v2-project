@@ -4,7 +4,7 @@
 
 //Please refer to my previous MiUI Calculator project at https://github.com/RKanna/miui-calculator-recreation-project.
 
-//Keyboard calculation also added as feature
+//Keyboard events also added as feature
 
 "use strict";
 let calcInput1 = document.getElementById(`calculation`);
